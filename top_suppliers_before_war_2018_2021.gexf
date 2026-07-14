@@ -1,0 +1,682 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2">
+  <meta lastmodifieddate="2026-07-13">
+    <creator>OpenAI, generated from sipri_data(2).xlsx / top_importer</creator>
+    <description>Top supplier network for 2018-2021 (before war). Directed edges point from supplier to European recipient country. No Imports rows are excluded.</description>
+  </meta>
+  <graph mode="static" defaultedgetype="directed">
+    <attributes class="node">
+      <attribute id="role" title="Role" type="string" />
+      <attribute id="supplier_count" title="Top supplier count" type="integer" />
+      <attribute id="period" title="Period" type="string" />
+    </attributes>
+    <attributes class="edge">
+      <attribute id="relationship" title="Relationship" type="string" />
+      <attribute id="period" title="Period" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Albania" label="Albania">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="500.000" y="0.000" z="0.0" />
+      </node>
+      <node id="Armenia" label="Armenia">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="494.415" y="74.521" z="0.0" />
+      </node>
+      <node id="Austria" label="Austria">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="477.786" y="147.378" z="0.0" />
+      </node>
+      <node id="Azerbaijan" label="Azerbaijan">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="450.484" y="216.942" z="0.0" />
+      </node>
+      <node id="Belarus" label="Belarus">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="413.119" y="281.660" z="0.0" />
+      </node>
+      <node id="Belgium" label="Belgium">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="366.526" y="340.086" z="0.0" />
+      </node>
+      <node id="Bosnia and Herzegovina" label="Bosnia and Herzegovina">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="311.745" y="390.916" z="0.0" />
+      </node>
+      <node id="Bulgaria" label="Bulgaria">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="250.000" y="433.013" z="0.0" />
+      </node>
+      <node id="Croatia" label="Croatia">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="182.671" y="465.437" z="0.0" />
+      </node>
+      <node id="Cyprus" label="Cyprus">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="111.260" y="487.464" z="0.0" />
+      </node>
+      <node id="Czech Republic" label="Czech Republic">
+        <attvalues>
+          <attvalue for="role" value="Supplier and recipient" />
+          <attvalue for="supplier_count" value="1" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="142" g="68" b="173" />
+        <viz:size value="9" />
+        <viz:position x="37.365" y="498.602" z="0.0" />
+      </node>
+      <node id="Denmark" label="Denmark">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-37.365" y="498.602" z="0.0" />
+      </node>
+      <node id="Estonia" label="Estonia">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-111.260" y="487.464" z="0.0" />
+      </node>
+      <node id="Finland" label="Finland">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-182.671" y="465.437" z="0.0" />
+      </node>
+      <node id="France" label="France">
+        <attvalues>
+          <attvalue for="role" value="Supplier and recipient" />
+          <attvalue for="supplier_count" value="3" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="142" g="68" b="173" />
+        <viz:size value="15" />
+        <viz:position x="-250.000" y="433.013" z="0.0" />
+      </node>
+      <node id="Georgia" label="Georgia">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-311.745" y="390.916" z="0.0" />
+      </node>
+      <node id="Germany" label="Germany">
+        <attvalues>
+          <attvalue for="role" value="Supplier and recipient" />
+          <attvalue for="supplier_count" value="2" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="142" g="68" b="173" />
+        <viz:size value="12" />
+        <viz:position x="-366.526" y="340.086" z="0.0" />
+      </node>
+      <node id="Greece" label="Greece">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-413.119" y="281.660" z="0.0" />
+      </node>
+      <node id="Hungary" label="Hungary">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-450.484" y="216.942" z="0.0" />
+      </node>
+      <node id="Ireland" label="Ireland">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-477.786" y="147.378" z="0.0" />
+      </node>
+      <node id="Israel" label="Israel">
+        <attvalues>
+          <attvalue for="role" value="Supplier" />
+          <attvalue for="supplier_count" value="2" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="230" g="126" b="34" />
+        <viz:size value="12" />
+        <viz:position x="-494.415" y="74.521" z="0.0" />
+      </node>
+      <node id="Italy" label="Italy">
+        <attvalues>
+          <attvalue for="role" value="Supplier and recipient" />
+          <attvalue for="supplier_count" value="2" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="142" g="68" b="173" />
+        <viz:size value="12" />
+        <viz:position x="-500.000" y="0.000" z="0.0" />
+      </node>
+      <node id="Kosovo" label="Kosovo">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-494.415" y="-74.521" z="0.0" />
+      </node>
+      <node id="Latvia" label="Latvia">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-477.786" y="-147.378" z="0.0" />
+      </node>
+      <node id="Lithuania" label="Lithuania">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-450.484" y="-216.942" z="0.0" />
+      </node>
+      <node id="Luxembourg" label="Luxembourg">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-413.119" y="-281.660" z="0.0" />
+      </node>
+      <node id="Montenegro" label="Montenegro">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-366.526" y="-340.086" z="0.0" />
+      </node>
+      <node id="Netherlands" label="Netherlands">
+        <attvalues>
+          <attvalue for="role" value="Supplier and recipient" />
+          <attvalue for="supplier_count" value="2" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="142" g="68" b="173" />
+        <viz:size value="12" />
+        <viz:position x="-311.745" y="-390.916" z="0.0" />
+      </node>
+      <node id="Norway" label="Norway">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-250.000" y="-433.013" z="0.0" />
+      </node>
+      <node id="Poland" label="Poland">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-182.671" y="-465.437" z="0.0" />
+      </node>
+      <node id="Portugal" label="Portugal">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-111.260" y="-487.464" z="0.0" />
+      </node>
+      <node id="Romania" label="Romania">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="-37.365" y="-498.602" z="0.0" />
+      </node>
+      <node id="Russia" label="Russia">
+        <attvalues>
+          <attvalue for="role" value="Supplier and recipient" />
+          <attvalue for="supplier_count" value="3" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="142" g="68" b="173" />
+        <viz:size value="15" />
+        <viz:position x="37.365" y="-498.602" z="0.0" />
+      </node>
+      <node id="Serbia" label="Serbia">
+        <attvalues>
+          <attvalue for="role" value="Supplier and recipient" />
+          <attvalue for="supplier_count" value="1" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="142" g="68" b="173" />
+        <viz:size value="9" />
+        <viz:position x="111.260" y="-487.464" z="0.0" />
+      </node>
+      <node id="Slovakia" label="Slovakia">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="182.671" y="-465.437" z="0.0" />
+      </node>
+      <node id="Slovenia" label="Slovenia">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="250.000" y="-433.013" z="0.0" />
+      </node>
+      <node id="Spain" label="Spain">
+        <attvalues>
+          <attvalue for="role" value="Supplier and recipient" />
+          <attvalue for="supplier_count" value="3" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="142" g="68" b="173" />
+        <viz:size value="15" />
+        <viz:position x="311.745" y="-390.916" z="0.0" />
+      </node>
+      <node id="Sweden" label="Sweden">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="366.526" y="-340.086" z="0.0" />
+      </node>
+      <node id="Turkey" label="Turkey">
+        <attvalues>
+          <attvalue for="role" value="Recipient" />
+          <attvalue for="supplier_count" value="0" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="52" g="152" b="219" />
+        <viz:size value="6" />
+        <viz:position x="413.119" y="-281.660" z="0.0" />
+      </node>
+      <node id="Ukraine" label="Ukraine">
+        <attvalues>
+          <attvalue for="role" value="Supplier and recipient" />
+          <attvalue for="supplier_count" value="1" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="142" g="68" b="173" />
+        <viz:size value="9" />
+        <viz:position x="450.484" y="-216.942" z="0.0" />
+      </node>
+      <node id="United Kingdom" label="United Kingdom">
+        <attvalues>
+          <attvalue for="role" value="Supplier and recipient" />
+          <attvalue for="supplier_count" value="1" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="142" g="68" b="173" />
+        <viz:size value="9" />
+        <viz:position x="477.786" y="-147.378" z="0.0" />
+      </node>
+      <node id="United States" label="United States">
+        <attvalues>
+          <attvalue for="role" value="Supplier" />
+          <attvalue for="supplier_count" value="19" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+        <viz:color r="230" g="126" b="34" />
+        <viz:size value="63" />
+        <viz:position x="494.415" y="-74.521" z="0.0" />
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="United States" target="Albania" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Russia" target="Armenia" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="Italy" target="Austria" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="Israel" target="Azerbaijan" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Russia" target="Belarus" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Spain" target="Belgium" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="United States" target="Bosnia and Herzegovina" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Netherlands" target="Bulgaria" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Israel" target="Croatia" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Serbia" target="Cyprus" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Spain" target="Czech Republic" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="United States" target="Denmark" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Netherlands" target="Estonia" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="United States" target="Finland" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="United States" target="France" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="France" target="Georgia" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="United States" target="Germany" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="France" target="Greece" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="Germany" target="Hungary" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="United Kingdom" target="Ireland" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="United States" target="Italy" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="United States" target="Kosovo" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="United States" target="Latvia" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="Germany" target="Lithuania" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="Spain" target="Luxembourg" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="United States" target="Montenegro" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="United States" target="Netherlands" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="United States" target="Norway" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="United States" target="Poland" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="United States" target="Portugal" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="United States" target="Romania" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="Ukraine" target="Russia" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="Russia" target="Serbia" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="United States" target="Slovakia" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="United States" target="Slovenia" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="France" target="Spain" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="United States" target="Sweden" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="Italy" target="Turkey" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="Czech Republic" target="Ukraine" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="United States" target="United Kingdom" weight="1">
+        <attvalues>
+          <attvalue for="relationship" value="Top supplier" />
+          <attvalue for="period" value="2018-2021 (before war)" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
